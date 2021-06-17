@@ -1,0 +1,30 @@
+
+.update_form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.update_main_form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 29px 34px;
+    box-shadow: 0px 2px 7px grey;
+    border-radius: 4px;
+}
+
+.update_main_form button{
+    
+    width: 116px;
+    background-color: #003cff;
+    display: block;
+    margin: auto;
+}
+.update_page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

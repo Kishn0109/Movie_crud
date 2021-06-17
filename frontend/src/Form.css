@@ -1,0 +1,61 @@
+input[type=Number]::-webkit-inner-spin-button,
+input[type=Number]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+}
+
+input[type=Number]{
+    -moz-appearance: textfield;
+}
+
+.Form_form{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.Form_form form {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    box-shadow: 0px 3px 8px grey;
+    padding: 41px 0px;
+    display: flex;
+    justify-content: center;
+}
+.Form_form form input{
+    text-shadow: none;
+
+}
+button{
+    text-transform: none;
+}
+.Form_form form button{
+    background-color: black;
+    color: white;
+    width: 115px;
+    display: block;
+    margin: auto;
+}
+.form_input_field{
+    margin: 10px 2px ;
+}
+.MuiFormControl-root{
+    margin:10px 0px;
+}
+.form_page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Form_main_form{
+    flex-direction: column;
+    width: 72%;
+    display: flex;
+}
+
